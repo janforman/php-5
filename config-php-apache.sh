@@ -1,0 +1,4 @@
+autoconf
+CFLAGS="-Os -march=native -pipe -fforce-addr -fomit-frame-pointer -fexpensive-optimizations -ffast-math";export CFLAGS
+CCOPTS="-Os -pipe -fforce-addr -fomit-frame-pointer -fexpensive-optimizations -ffast-math";export CCOPTS
+./configure --enable-exif --with-openssl --disable-phar --disable-flatfile --disable-sysvshm --disable-sysvmsg --disable-sysvsem --disable-sockets --disable-xmlreader --disable-xmlwriter --disable-posix --disable-pdo --disable-wddx --disable-cli --disable-debug --disable-pcntl --with-gd --with-zlib --with-bz2 --enable-inline-optimization --without-gmp --without-kerberos --without-xmlrpc --with-iconv --with-pic --with-mysql --with-mysqli --with-jpeg-dir=/usr/lib --enable-mbstring --without-pear --without-sqlite3 --without-snmp --with-mcrypt --with-curl --with-libdir=/lib64 --with-apache=../apache_1.3.42
